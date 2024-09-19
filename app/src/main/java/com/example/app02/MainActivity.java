@@ -32,9 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
         activityMainBinding.bt.setOnClickListener(v->{
             Intent intent = new Intent(MainActivity.this,secondary_activity.class);
-            startActivity(intent);
             int ilosc = Integer.parseInt(activityMainBinding.ilosc.getText().toString());
             intent.putExtra("ilosc",ilosc);
+            startActivity(intent);
+
         });
 
     }

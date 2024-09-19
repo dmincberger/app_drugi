@@ -13,6 +13,13 @@
         android:theme="@style/Theme.App02"
         tools:targetApi="31" >
         <activity
+            android:name=".button_click"
+            android:exported="false" />
+        <activity
+            android:name=".button_activity"
+            android:exported="false"
+            android:theme="@style/Theme.App02" />
+        <activity
             android:name=".secondary_activity"
             android:exported="false" />
         <activity
